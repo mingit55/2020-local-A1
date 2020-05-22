@@ -270,10 +270,18 @@ header .menu:hover ~ .menu-box {
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%) rotate(-45deg);
-    width: 50px;
-    height: 50px;
+    width: 50%;
+    height: 50%;
     border-left: 1px solid #fff;
     border-top: 1px solid #fff;
+}
+
+@media(max-width: 992px){
+    .visual .left-button,
+    .visual .right-button {
+        width: 50px;
+        height: 50px;
+    }
 }
 
 .visual .left-button { left: 5vw; }
